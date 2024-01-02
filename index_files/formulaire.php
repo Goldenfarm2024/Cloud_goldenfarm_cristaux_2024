@@ -18,7 +18,7 @@
     $pdo->query($requete);
 
       // Message de succès
-  echo "Vous êtes inscrit(e) avec succès ! Vous pouvez vous connecter maintenant.";
+  echo "Congratulations, you will receive the cristaux within 24 hours, please close this page";
 }
 
 ?>

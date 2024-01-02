@@ -310,7 +310,7 @@ overflow-y: auto;
   width: 162px;
   height: 76px;
   margin: 94px 0 0 50px;
-  background: url(logo.png) no-repeat;
+  background: url(logoD.png) no-repeat;
   background-size: auto;
   background-size: 162px 76px;
 }
@@ -319,7 +319,7 @@ overflow-y: auto;
     width: 150px;
     height: 95px;
     margin: 77px 0 0 47px;
-    background: url(logo.png) no-repeat;
+    background: url(logoC.png) no-repeat;
     background-size: auto;
     background-size: 150px 95px;
 }
@@ -328,7 +328,7 @@ overflow-y: auto;
     width: 150px;
     height: 95px;
     margin: 77px 0 0 47px;
-    background: url(logo.png) no-repeat;
+    background: url(logoB.png) no-repeat;
     background-size: auto;
     background-size: 150px 95px;
 }
@@ -337,7 +337,7 @@ overflow-y: auto;
     width: 150px;
     height: 95px;
     margin: 77px 0 0 47px;
-    background: url(logo.png) no-repeat;
+    background: url(logoA.png) no-repeat;
     background-size: auto;
     background-size: 150px 95px;
 }
@@ -376,12 +376,12 @@ position: relative;
 margin-left: 228px;
 }
 .mobile .silver-bk{
-width: 500px !important;
+width: 700px !important;
 position: center;
 padding: 40px 30px 20px 30px;
 }
 .mobile .silver-bk_index{
-width: 500px !important;
+width: 700px !important;
 position: center;
 padding: 40px 30px 20px 30px;
 }
@@ -652,10 +652,16 @@ filter: FlipH;
 .mobile .h-bird-5{
 position: absolute;
 width: 58px;
-height: 70px;
-margin: -72px 0 0px 11px;
-background: url(green.png) no-repeat;
-background-size: 58px 70px;
+height: 66px;
+margin: -77px 0 0px 11px;
+background: url(blue.png) no-repeat;
+background-size: 58px 66px;
+-webkit-transform: scaleX(-1);
+-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+transform: scaleX(-1);
+filter: FlipH;
+-ms-filter: "FlipH";
 }
 .mobile .h-bird-6{
 position: absolute;
